@@ -41,8 +41,8 @@ void main() {
   // Final Grade Calculation
   // Calculating the final grade based on their weighted average scores.
   double finalGrade = (assignmentScore * assignmentWeight) +
-                      (midtermScore * midtermWeight) +
-                      (finalExamScore * finalExamWeight);
+  (midtermScore * midtermWeight) +
+  (finalExamScore * finalExamWeight);
 
   // Determine Pass/Fail Status 
   String passFailStatus;
@@ -53,8 +53,8 @@ void main() {
     passFailStatus = 'Failed';
   }
 
-  // --- Display Grade Report ---
-  print('\n--- Student Grade Report ---');
+  // Display Grade Report
+  print('\n Student Grade Report');
   print('Student Name: $studentName');
   // displaying the scores.
   print('Assignment Score: ${assignmentScore.toStringAsFixed(1)}');
